@@ -1,4 +1,4 @@
-# TideTrace – SIH 2026 Submission
+# TEAM OUTLIERS 2026 – SIH 2026 Submission
 
 ## Problem Statement
 SIH26143 – NTRO Oil Spill Attribution Console
