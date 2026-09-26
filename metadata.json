@@ -1,0 +1,7 @@
+{
+  "name": "OUTLIERS - Maritime Intelligence Console",
+  "description": "Satellite SAR oil spill detection, Lagrangian drift hindcasting, and AIS trajectory correlation console for maritime forensics and vessel attribution (SIH26143).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

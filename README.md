@@ -1,39 +1,20 @@
-# TEAM OUTLIERS 2026 – SIH 2026 Submission
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-## Problem Statement
-SIH26143 – NTRO Oil Spill Attribution Console
+# Run and deploy your AI Studio app
 
-## Overview
-TideTrace is an AI-powered oil spill attribution and tracking platform that detects oil spills from Sentinel-1 SAR imagery, estimates the likely source location using drift modeling, analyzes vessel activity using AIS data, and generates evidence-backed rankings of potential responsible vessels.
+This contains everything you need to run your app locally.
 
-## Key Features
-- Oil spill detection from satellite imagery
-- Backward drift simulation for source estimation
-- Forward spill trajectory prediction
-- AIS vessel correlation and ranking
-- Offline-first architecture
-- CPU-only execution
+View your app in AI Studio: https://ai.studio/apps/aa2365d8-32e0-4149-80e8-09f8364f58c1
 
-## Technology Stack
-- Python
-- Machine Learning
-- Remote Sensing
-- Sentinel-1 SAR
-- React + Vite Frontend
-- Geospatial Analytics
+## Run Locally
 
-## Repository Structure
-- src/ : Frontend source code
-- docs/ : Documentation
-- requirements.txt : Python dependencies
-- README.md : Project overview
+**Prerequisites:**  Node.js
 
-## SIH Deliverables
-- Problem understanding
-- System architecture
-- Prototype implementation
-- Documentation
-- Demonstration assets
 
-## Note
-Large datasets, model weights, node_modules and generated files are intentionally excluded from the repository and should be hosted separately.
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
